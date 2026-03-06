@@ -55,5 +55,5 @@ server.delete("/tasks/:id", (req: Request, res: Response) => {
 });
 
 server.listen(port, () => {
-  console.log(`Example app listening on port ${port}`);
+  console.log(`http://localhost:${port}`);
 });
